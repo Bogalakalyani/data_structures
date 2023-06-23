@@ -53,13 +53,6 @@ class BinaryTree:
         if self.rchild:
             self.rchild.postorder()
         print(self.data)
-    def bfs(self):
-        queue = []
-        queue.append(self.data)
-        if self.data != None:
-           queue.append(self.data)
-
-        print(queue[0])
 
 
 node = BinaryTree(None)
@@ -81,4 +74,4 @@ print(node.lchild.lchild.data)
 print(node.lchild.rchild.data)
 
 
-#breadth first search
+
