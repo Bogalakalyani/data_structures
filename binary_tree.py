@@ -43,10 +43,10 @@ class BinaryTree:
 
     def inorder(self):
         if self.lchild:
-            self.lchild.preorder()
+            self.lchild.inorder()
         print(self.data)
         if self.rchild:
-            self.rchild.preorder()
+            self.rchild.inorder()
     def postorder(self):
         if self.lchild:
             self.lchild.postorder()
