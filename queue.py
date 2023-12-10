@@ -29,7 +29,7 @@ def push1(num):
     queue3.append(num)
 def pop1():
     if not queue3:
-        print('stack is empty')
+        print('queue is empty')
     else:
         queue3.pop(0)
 
@@ -46,7 +46,7 @@ def push2(num):
     queue4.insert(0,num)
 def pop2():
     if not queue4:
-        print('stack is empty')
+        print('queue is empty')
     else:
         queue4.pop()
 push2(10)
